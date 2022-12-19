@@ -1,0 +1,102 @@
+:root {
+    --azul-:#514988 ;
+    --roza-:#E33881;
+    --amarelo- : #F3C61F;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+}
+.principal {
+    background-color:#FFD900;
+    padding: 1em 0 1em 2em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+.containerTextos {
+    background-color: var(--azul-);
+    text-align: center;
+    padding: 1em;
+    color: white;
+    
+}
+
+.containerTitulo{
+    color: var(--amarelo-);
+    font-size: 40px;
+    padding: 0.25em 0 0.5em 0 
+}
+
+.containerSubTitulo {
+    font-size: 20px;
+    
+}
+.containerTexto {
+    font-weight: 400;
+    padding: 3em 2em 0 2em;
+}
+
+.containerAnimacao {
+    margin  : 0.5em;
+    text-align: left;
+}
+
+.countDown {
+    display: inline-block;
+    font-size: 2em;
+    padding: 0 1em 0 0;
+    color: var(--azul-);
+
+}
+
+.countDownText {
+    color: var(--roza-);
+    font-size: 18px;
+    padding: 0.25em 0 0.25em 0.5em;
+}
+.containerVideo {
+    width: 100%;
+    margin-top: 1em;   
+}
+
+.rodape {
+    text-align: center;
+    padding: 0.5em;
+    display: grid;;
+    grid-template-columns: 3fr 2fr;
+    
+}
+.rodapeTexto{
+    margin-left: 1em;
+}
+.rodapeTitulo {
+    color: var(--amarelo-);
+    padding: 1em 0 1em 0;
+}
+.rodapeImg {
+    width: 20%;
+}
+
+.botao {
+    background-color: var(--azul-);
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 320px;
+    height: 80px;
+    padding: 0.25em 1em 0.25em 1em;
+    border-style: none;
+    margin: 2.5em 0 1em 1em ;
+}
+
+.botao:hover {
+    color: var(--amarelo-);
+    cursor: pointer;
+}
