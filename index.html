@@ -31,18 +31,26 @@
             <video controls loop class="containerVideo"><source  src="img/Arlequina.mp4" type="video/mp4"></video>
         </div>
     </main>
-    <footer class="rodape" >
+    <section class="rodape" >
         <div class="rodapeTexto">
             <p class="rodapeTitulo">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
-            <div class="">
-                <img class="rodapeImg" src="img/quinta.svg" alt="">
-                <img class="rodapeImg" src="img/sexta.svg" alt="">
-                <img class="rodapeImg" src="img/sabado.svg" alt="">
-                <img class="rodapeImg" src="img/domingo.svg " alt="">
+            <div class="rodapeImgs">
+                <img class="rodapeImg" onclick="selectedCard('#quinta')" onmouseover="borda('#quinta')" onmouseout="borda('#quinta')" id="quinta" src="img/quinta.svg" alt="">
+                <img class="rodapeImg" onclick="selectedCard('#sexta')" onmouseover="borda('#sexta')" onmouseout="borda('#sexta')" id="sexta" src="img/sexta.svg" alt="">
+                <img class="rodapeImg" onclick="selectedCard('#sabado')" onmouseover="borda('#sabado')" onmouseout="borda('#sabado')" id="sabado" src="img/sabado.svg" alt="">
+                <img class="rodapeImg" onclick="selectedCard('#domingo')" onmouseover="borda('#domingo')" onmouseout="borda('#domingo')" id="domingo" src="img/domingo.svg " alt="">
             </div>
         </div>
-        <button class="botao">GARANTA O SEU</button>
+        <button class="botao" onclick="showIngressos()">GARANTA O SEU</button>
+    </section>
+    <footer class="novidades">
+        <p>receba nossas novidades: </p>
+        <form action="www.google.com" method="post" >
+            <input class="inpNovidades" type="email" name="email" id="" placeholder="Seu email">
+            <button class="btNovidades" type="submit">Enviar</button>
+        </form>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

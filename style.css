@@ -68,11 +68,12 @@ body {
 
 .rodape {
     text-align: center;
-    padding: 0.5em;
-    display: grid;;
+    padding: 0.5em 0 3em 0;
+    display: grid;
     grid-template-columns: 3fr 2fr;
-    
 }
+
+
 .rodapeTexto{
     margin-left: 1em;
 }
@@ -80,8 +81,13 @@ body {
     color: var(--amarelo-);
     padding: 1em 0 1em 0;
 }
+
+.rodapeImgs {
+    display: flex;
+    justify-content: center;
+}
 .rodapeImg {
-    width: 20%;
+    width: 150px;
 }
 
 .botao {
@@ -99,4 +105,43 @@ body {
 .botao:hover {
     color: var(--amarelo-);
     cursor: pointer;
+}
+
+.cardHighLight {
+    width:200px;
+    box-shadow: 10px 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.cardSelected {
+    border: 5px solid green;
+}
+
+.novidades {
+    background-color: #FFD900;
+    align-items: center;
+    padding: 1em;
+    display: flex;
+    justify-content:right
+}
+
+.novidades p {
+    padding-right: 1em;
+    font-size: 20px;
+}
+.inpNovidades {
+    font-size: 30px;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    border-style: none;
+}
+.btNovidades {
+    background-color: var(--azul-);
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    border-style: none;
 }
