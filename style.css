@@ -30,16 +30,17 @@ body {
 
 .containerTitulo{
     color: var(--amarelo-);
-    font-size: 40px;
+    font-size: 4em;
     padding: 0.25em 0 0.5em 0 
 }
 
 .containerSubTitulo {
-    font-size: 20px;
+    font-size: 2em;
     
 }
 .containerTexto {
     font-weight: 400;
+    font-size: 1.75em;
     padding: 3em 2em 0 2em;
 }
 
@@ -50,7 +51,7 @@ body {
 
 .countDown {
     display: inline-block;
-    font-size: 2em;
+    font-size: 4em;
     padding: 0 1em 0 0;
     color: var(--azul-);
 
@@ -87,7 +88,7 @@ body {
     justify-content: center;
 }
 .rodapeImg {
-    width: 150px;
+    width: 25%;
 }
 
 .botao {
@@ -130,7 +131,7 @@ body {
     font-size: 20px;
 }
 .inpNovidades {
-    font-size: 30px;
+    font-size: 1.5em;
     border-radius: 20px;
     width: 300px;
     height: 60px;
@@ -139,9 +140,10 @@ body {
 .btNovidades {
     background-color: var(--azul-);
     color: white;
-    font-size: 30px;
+    font-size: 1.5em;
     border-radius: 20px;
     width: 150px;
     height: 60px;
     border-style: none;
+    text-transform: uppercase;
 }

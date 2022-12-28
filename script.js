@@ -84,8 +84,12 @@ function addKeyboardEventListeners(){
 function selectedCard(elemento){
     let selecao = document.querySelector(elemento)
     selecao.classList.toggle('cardSelected')
-    if(ingressos.includes(elemento)) ingressos.pop(elemento)
-    else ingressos.push(elemento)
+    if(ingressos.includes(elemento)) { 
+        
+        let index = ingressos.indexOf(elemento)
+        ingressos.splice(index,1)}
+        
+    else {ingressos.push(elemento)}
 }
 
 function showIngressos(){
